@@ -5,7 +5,7 @@ module AliveState
     end
 
     def call(env)
-      path, format = env["PATH_INFO"].split('.')
+      path, format = env['PATH_INFO'].split('.')
       case path
       when /^\/#{AliveState.config.path}/
         alive_state_call(env, format)
