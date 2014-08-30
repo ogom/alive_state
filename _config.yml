@@ -1,0 +1,15 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+
+pygments: true
+
+baseurl: '/alive_state'
+encoding: UTF-8
+
+exclude: ['README.md', 'tmp']
+
+name: Alive State
+copyright: 2014, ogom
+
+theme: yeti
