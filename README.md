@@ -8,7 +8,7 @@ Alive Application State on Rails.
 
 Add this line to your application's Gemfile:
 
-```ruby
+```
 gem 'alive_state'
 ```
 
@@ -28,7 +28,7 @@ GET /status
 
 Response in the format of json:
 
-```json
+```
 {
     "state": "green",
     "created_at": "2014-03-21T12:34:56.789",

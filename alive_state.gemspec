@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ogom@hotmail.co.jp"]
   spec.summary       = %q{Alive Application State.}
   spec.description   = %q{Alive Application State on Rails.}
-  spec.homepage      = "https://github.com/ogom/alive_state"
+  spec.homepage      = "http://ogom.github.io/alive_state"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
