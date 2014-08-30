@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = AliveState::VERSION
   spec.authors       = ["ogom"]
   spec.email         = ["ogom@hotmail.co.jp"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Alive Application State.}
+  spec.description   = %q{Alive Application State on Rails.}
+  spec.homepage      = "https://github.com/ogom/alive_state"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'rake'
 end
