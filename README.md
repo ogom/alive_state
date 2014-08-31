@@ -38,6 +38,8 @@ Response in the format of json:
 }
 ```
 
+[Browse the documentation.](http://ogom.github.io/alive_state/docs)
+
 ## License
 
 * MIT
