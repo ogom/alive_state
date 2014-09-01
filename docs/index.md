@@ -45,7 +45,7 @@ Response in the format of json:
 ```
 {
   "state": "green",
-  "created_at": "2014-03-21T12:34:56.789",
+  "observed_at": "2014-03-21T12:34:56.789",
   "application": {
     "active_record": true,
     "active_ldap": true,
