@@ -21,7 +21,7 @@ module AliveState
       params = { 'Content-Type' => 'text/plain; charset=utf-8' }
       raw = {
         state: :green,
-        created_at: Time.now,
+        observed_at: Time.now,
         application: {}
       }
 

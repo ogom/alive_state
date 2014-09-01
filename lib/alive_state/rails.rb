@@ -1,9 +1,7 @@
 module AliveState
   class Railtie < Rails::Railtie
     initializer "alive_state.configure_rails_initialization" do
-      if use_alive_state?
-        insert_middleware
-      end
+      insert_middleware
     end
 
     def insert_middleware
@@ -12,10 +10,6 @@ module AliveState
       else
         app.middleware.use AliveState::Middleware
       end
-    end
-
-    def use_alive_state?
-      !Rails.env.production? and app.config.consider_all_requests_local
     end
 
     def app
