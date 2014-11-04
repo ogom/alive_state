@@ -31,7 +31,7 @@ end
 AliveState::Configure.setup
 
 AliveState.application do
-  active_record { ActiveRecord::Base.connection.execute('select 1') }
+  active_record { ActiveRecord::Base.connection.execute('select 1') } if defined? ActiveRecord
 end
 
 require 'alive_state/rails' if defined? Rails::Railtie
