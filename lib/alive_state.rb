@@ -28,10 +28,10 @@ module AliveState
   end
 end
 
-AliveState::Configure.setup
-
 AliveState.application do
   active_record { ActiveRecord::Base.connection.execute('select 1') } if defined? ActiveRecord
 end
+
+AliveState::Configure.setup
 
 require 'alive_state/rails' if defined? Rails::Railtie
