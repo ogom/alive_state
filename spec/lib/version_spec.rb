@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe AliveState do
-  describe "VERSION" do
-    it "AliveState::VERSION" do
+describe "AliveState::VERSION" do
+  describe "reference" do
+    it "returns #{AliveState::VERSION} version" do
       expect(AliveState::VERSION).to eq(AliveState::VERSION)
     end
   end
