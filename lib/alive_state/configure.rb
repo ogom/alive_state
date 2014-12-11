@@ -1,7 +1,7 @@
 module AliveState
   module Configure
     class << self
-      attr_accessor :path, :format, :front
+      attr_accessor :path, :format, :insert_middleware
 
       def setup
         keys.each do |key|
@@ -10,7 +10,7 @@ module AliveState
       end
 
       def keys
-        @keys ||= %i[path format front]
+        @keys ||= %i[path format insert_middleware]
       end
     end
   end

@@ -2,7 +2,7 @@ module AliveState
   module Default
     PATH = 'status'.freeze
     FORMAT = 'json'.freeze
-    FRONT = true.freeze
+    InsertMiddleware = true.freeze
 
     class << self
       def options
@@ -17,8 +17,8 @@ module AliveState
         FORMAT
       end
 
-      def front
-        FRONT
+      def insert_middleware
+        InsertMiddleware
       end
     end
   end
