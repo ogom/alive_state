@@ -22,6 +22,7 @@ module AliveState
       raw = {
         state: :green,
         observed_at: Time.current.to_s,
+        version: AliveState::Info.version_format,
         application: {}
       }
 

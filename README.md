@@ -32,6 +32,7 @@ Response in the format of json:
 {
     "state": "green",
     "observed_at": "2014-03-21T12:34:56.789",
+    "version": "2.0.0 as40321",
     "application": {
         "active_record": true
     }

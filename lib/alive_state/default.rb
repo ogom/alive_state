@@ -3,6 +3,7 @@ module AliveState
     PATH = 'status'.freeze
     FORMAT = 'json'.freeze
     InsertMiddleware = true.freeze
+    VERSION = ''.freeze
 
     class << self
       def options
@@ -19,6 +20,10 @@ module AliveState
 
       def insert_middleware
         InsertMiddleware
+      end
+
+      def version
+        VERSION
       end
     end
   end

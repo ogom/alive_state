@@ -1,6 +1,7 @@
 require 'alive_state/version'
 require 'alive_state/configure'
 require 'alive_state/default'
+require 'alive_state/info'
 require 'alive_state/registry'
 require 'alive_state/application'
 require 'alive_state/middleware'

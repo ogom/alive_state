@@ -1,7 +1,7 @@
 module AliveState
   module Configure
     class << self
-      attr_accessor :path, :format, :insert_middleware
+      attr_accessor :path, :format, :insert_middleware, :version
 
       def setup
         keys.each do |key|
